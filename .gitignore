@@ -1,0 +1,38 @@
+# Exclude all files/directories except the ones I want
+/*
+
+# .gitignore
+!.gitignore
+
+# Readme
+!README.md
+
+# Cmake
+!CMakeLists.txt
+!/cmake/
+/cmake/*
+!/cmake/cmake_uninstall.cmake.in
+
+# Source
+!/src/
+/src/*
+
+# Headers
+!/include/
+/include/*
+
+# qp
+!/include/krang-qp/
+/include/krang-qp/*
+
+# id
+!/src/id.cpp
+!/include/krang-qp/id.hpp
+
+# ik
+!/src/ik.cpp
+!/include/krang-qp/ik.hpp
+
+# qp
+!/src/qp.cpp
+!/include/krang-qp/qp.hpp
