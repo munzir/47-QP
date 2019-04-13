@@ -4,6 +4,8 @@
 
 #include "krang-qp/qp.hpp"
 
+namespace qp {
+
 // Define LeftArmOptParams
 void qpLeftArmOptParams() {}
 
@@ -86,3 +88,5 @@ Eigen::VectorXd qpdefineb(Eigen::MatrixXd mbEER, Eigen::MatrixXd mbOrR,
   b << mbEER, mbOrR, mbEEL, mbOrL, mbBal, mbPose, mbSpeedReg, mbReg;
   return b;
 }
+
+}  // namespace qp
