@@ -29,6 +29,9 @@
 !/src/Controller.cpp
 !/include/krang-qp/Controller.hpp
 
+# filter
+!/include/krang-qp/filter.hpp
+
 # id
 !/src/id.cpp
 !/include/krang-qp/id.hpp
