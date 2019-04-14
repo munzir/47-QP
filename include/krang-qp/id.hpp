@@ -22,12 +22,6 @@ struct OptParams {
 
 // Function Prototypes
 
-// // Define Regulation Opt Params P
-// Eigen::MatrixXd iddefinePReg(mWMatPose, mWMatSpeedReg,);
-
-// // Define Regulation Opt Params b
-// Eigen::MatrixXd iddefinePReg();
-
 // // Define P for QP
 Eigen::MatrixXd iddefineP(Eigen::MatrixXd mPEER, Eigen::MatrixXd mPOrR,
                           Eigen::MatrixXd mPEEL, Eigen::MatrixXd mPOrL,

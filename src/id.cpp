@@ -7,25 +7,6 @@
 
 #include "krang-qp/id.hpp"
 
-// // Define Regulation Opt Params P
-// Eigen::MatrixXd iddefinePReg(mWMatPose, mWMatSpeedReg,);
-
-// // Define Regulation Opt Params b
-// Eigen::MatrixXd iddefinePReg();
-
-// // Define P for QP
-Eigen::MatrixXd iddefineP(Eigen::MatrixXd mPEER, Eigen::MatrixXd mPOrR,
-                          Eigen::MatrixXd mPEEL, Eigen::MatrixXd mPOrL,
-                          Eigen::VectorXd mPBal, Eigen::MatrixXd mPPose,
-                          Eigen::MatrixXd mPSpeedReg, Eigen::MatrixXd mPReg,
-                          int mOptDim) {}
-
-// // Define b for QP
-Eigen::MatrixXd iddefineb(Eigen::MatrixXd mbEER, Eigen::MatrixXd mbOrR,
-                          Eigen::MatrixXd mbEEL, Eigen::MatrixXd mbOrL,
-                          Eigen::VectorXd mbBal, Eigen::MatrixXd mbPose,
-                          Eigen::MatrixXd mbSpeedReg, Eigen::MatrixXd mbReg) {}
-
 // // opt function
 double optFunc(const std::vector<double>& x, std::vector<double>& grad,
                void* my_func_data) {

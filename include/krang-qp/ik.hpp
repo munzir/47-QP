@@ -24,36 +24,10 @@
 //              void* my_func_data);
 
 // Function Prototypes
-
-// // Define Regulation Opt Params P
-// Eigen::MatrixXd definePReg(mWMatPose, mWMatSpeedReg,);
-
-// // Define Regulation Opt Params b
-// Eigen::MatrixXd definePReg();
-
-// // Define P for QP
-// Eigen::MatrixXd defineP(Eigen::MatrixXd mPEER,
-//                        Eigen::MatrixXd mPOrR,
-//                        Eigen::MatrixXd mPEEL,
-//                        Eigen::MatrixXd mPOrL,
-//                        Eigen::VectorXd mPBal,
-//                        Eigen::MatrixXd mPPose,
-//                        Eigen::MatrixXd mPSpeedReg,
-//                        Eigen::MatrixXd mPReg, int mOptDim);
-//
-//// // Define b for QP
-// Eigen::VectorXd defineb(Eigen::MatrixXd mbEER,
-//                        Eigen::MatrixXd mbOrR,
-//                        Eigen::MatrixXd mbEEL,
-//                        Eigen::MatrixXd mbOrL,
-//                        Eigen::VectorXd mbBal,
-//                        Eigen::MatrixXd mbPose,
-//                        Eigen::MatrixXd mbSpeedReg,
-//                        Eigen::MatrixXd mbReg);
-
 // // compute speeds for joints based on ik algorithm
 Eigen::VectorXd computeSpeeds(int mOptDim, OptParams optParams, bool maxTimeSet,
                               Eigen::VectorXd mdqBodyRef);
 
 //}  // namespace ik
+
 #endif  // KRANG_QP__IK_HPP
