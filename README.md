@@ -8,6 +8,12 @@ Krang.
 
 - nlopt
   TODO
+  
+  18h
+  TODO
+  
+  config4cpp
+  TODO: Ideally want to get rid of this tbh
 
 ## Installation
 
