@@ -25,6 +25,10 @@
 !/include/krang-qp/
 /include/krang-qp/*
 
+# Controller
+!/src/Controller.cpp
+!/include/krang-qp/Controller.hpp
+
 # id
 !/src/id.cpp
 !/include/krang-qp/id.hpp
